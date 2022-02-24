@@ -30,4 +30,14 @@ public class MovimientoFrog : MonoBehaviour
 
        rigidbody.velocity = new Vector2(inputMovimiento * velocidad, rigidbody.velocity.y);
    }
+
+   void OnTriggerEnter2D(Collider2D col)
+    {
+        if(col.CompareTag("bananaitem"))
+{
+   Destroy(col.gameObject);
+}
+
+}
+
 }
