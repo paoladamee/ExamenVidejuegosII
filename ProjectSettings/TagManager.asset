@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - bananaitem
+  - kiwiitem
+  - naranjaitem
+  - "pi\xF1a item"
+  - cerezaitem
+  - melonitem
+  - manzanaitem
+  - manzanaitemfinal
   layers:
   - Default
   - TransparentFX
