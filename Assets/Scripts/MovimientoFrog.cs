@@ -38,6 +38,68 @@ public class MovimientoFrog : MonoBehaviour
    Destroy(col.gameObject);
 }
 
+    {
+        if(col.CompareTag("kiwiitem"))
+{
+   Destroy(col.gameObject);
+}
+
+    }
+
+        {
+        if(col.CompareTag("naranjaitem"))
+{
+   Destroy(col.gameObject);
+}
+
+    }
+
+
+        {
+        if(col.CompareTag("piña item"))
+{
+   Destroy(col.gameObject);
+}
+
+    }
+
+     {
+        if(col.CompareTag("cerezaitem"))
+{
+   Destroy(col.gameObject);
+}
+
+    }
+
+         {
+        if(col.CompareTag("melonitem"))
+{
+   Destroy(col.gameObject);
+}
+
+    }
+
+    {
+        if(col.CompareTag("manzanaitem"))
+{
+   Destroy(col.gameObject);
+}
+
+    }
+
+    {
+        if(col.CompareTag("manzanaitemfinal"))
+{
+   Destroy(col.gameObject);
+}
+
+    }
+
+
 }
 
 }
+
+
+
+
