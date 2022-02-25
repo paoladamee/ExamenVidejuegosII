@@ -1,4 +1,6 @@
 # ExamenVidejuegosII
+
+
 Examen Primer Parcial
 
 
@@ -121,6 +123,18 @@ Unity trabaja los scripts en lenguaje C#
 
 En el estudio de marketing (2020) se menciona el origen de este lenguaje de programación el cual se trata de una “evolución” que Microsoft elaboró a partir de los lenguajes ya existentes C y C++, así como java tomando un poco de su sintaxis.
 
+6.1.2. Funciones del lenguaje.
+	
+6.1.2.1. Collider2D
+	
+Clase utilizada para el juego
+
+6.1.2.1.1. Capsule Collider 2D
+
+Esta función fue utilizada para colisionar con los items, sin esta función nuestro personaje “chocaba” con los objetos
+
+6.1.2.1.2. OnTriggerEnter2D
+Se informa más información sobre el otro colisionador en el parámetro      Collider2D.
 
 7. Softwares Utilizados
 
@@ -157,12 +171,7 @@ Se utilizó una paleta de colores cálidos, con una saturación medio alta, esto
 	Se utilizaron recursos de la Unity Store para integrar al juego, esto con el fin de agregar más vida y estilo al juego.
 
 
-
 9. Referencias.
 	
 El juego está basado en algunos clásicos de las plataformas como Mario Bros, Donkey Kong, Duck Hunt, Frogger.
-
-
-
-
 
